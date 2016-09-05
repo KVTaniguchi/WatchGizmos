@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C745A1FA1D7E15A7004B57C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A1F91D7E15A7004B57C1 /* AppDelegate.swift */; };
-		C745A1FC1D7E15A7004B57C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A1FB1D7E15A7004B57C1 /* ViewController.swift */; };
-		C745A1FF1D7E15A7004B57C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C745A1FD1D7E15A7004B57C1 /* Main.storyboard */; };
 		C745A2011D7E15A7004B57C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C745A2001D7E15A7004B57C1 /* Assets.xcassets */; };
 		C745A2041D7E15A7004B57C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C745A2021D7E15A7004B57C1 /* LaunchScreen.storyboard */; };
 		C745A20F1D7E15A7004B57C1 /* WatchGizmosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A20E1D7E15A7004B57C1 /* WatchGizmosTests.swift */; };
@@ -22,6 +20,10 @@
 		C745A2351D7E15A7004B57C1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A2341D7E15A7004B57C1 /* ExtensionDelegate.swift */; };
 		C745A2371D7E15A7004B57C1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A2361D7E15A7004B57C1 /* ComplicationController.swift */; };
 		C745A2391D7E15A7004B57C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C745A2381D7E15A7004B57C1 /* Assets.xcassets */; };
+		C745A24F1D7E163A004B57C1 /* CurrentStickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A24E1D7E163A004B57C1 /* CurrentStickerViewController.swift */; };
+		C745A2511D7E1B7C004B57C1 /* CloudKitHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A2501D7E1B7C004B57C1 /* CloudKitHelpers.swift */; };
+		C745A2531D7E1C04004B57C1 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A2521D7E1C04004B57C1 /* GalleryViewController.swift */; };
+		C745A2551D7E1DD7004B57C1 /* WatchConnectivityHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A2541D7E1DD7004B57C1 /* WatchConnectivityHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,8 +85,6 @@
 /* Begin PBXFileReference section */
 		C745A1F61D7E15A7004B57C1 /* WatchGizmos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchGizmos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C745A1F91D7E15A7004B57C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C745A1FB1D7E15A7004B57C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C745A1FE1D7E15A7004B57C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C745A2001D7E15A7004B57C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C745A2031D7E15A7004B57C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C745A2051D7E15A7004B57C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,6 +104,10 @@
 		C745A2361D7E15A7004B57C1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		C745A2381D7E15A7004B57C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C745A23A1D7E15A7004B57C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C745A24E1D7E163A004B57C1 /* CurrentStickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentStickerViewController.swift; sourceTree = "<group>"; };
+		C745A2501D7E1B7C004B57C1 /* CloudKitHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitHelpers.swift; sourceTree = "<group>"; };
+		C745A2521D7E1C04004B57C1 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		C745A2541D7E1DD7004B57C1 /* WatchConnectivityHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchConnectivityHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,11 +170,13 @@
 			isa = PBXGroup;
 			children = (
 				C745A1F91D7E15A7004B57C1 /* AppDelegate.swift */,
-				C745A1FB1D7E15A7004B57C1 /* ViewController.swift */,
-				C745A1FD1D7E15A7004B57C1 /* Main.storyboard */,
 				C745A2001D7E15A7004B57C1 /* Assets.xcassets */,
 				C745A2021D7E15A7004B57C1 /* LaunchScreen.storyboard */,
 				C745A2051D7E15A7004B57C1 /* Info.plist */,
+				C745A24E1D7E163A004B57C1 /* CurrentStickerViewController.swift */,
+				C745A2501D7E1B7C004B57C1 /* CloudKitHelpers.swift */,
+				C745A2521D7E1C04004B57C1 /* GalleryViewController.swift */,
+				C745A2541D7E1DD7004B57C1 /* WatchConnectivityHelpers.swift */,
 			);
 			path = WatchGizmos;
 			sourceTree = "<group>";
@@ -375,7 +381,6 @@
 			files = (
 				C745A2041D7E15A7004B57C1 /* LaunchScreen.storyboard in Resources */,
 				C745A2011D7E15A7004B57C1 /* Assets.xcassets in Resources */,
-				C745A1FF1D7E15A7004B57C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +422,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C745A1FC1D7E15A7004B57C1 /* ViewController.swift in Sources */,
+				C745A2511D7E1B7C004B57C1 /* CloudKitHelpers.swift in Sources */,
+				C745A2531D7E1C04004B57C1 /* GalleryViewController.swift in Sources */,
+				C745A2551D7E1DD7004B57C1 /* WatchConnectivityHelpers.swift in Sources */,
+				C745A24F1D7E163A004B57C1 /* CurrentStickerViewController.swift in Sources */,
 				C745A1FA1D7E15A7004B57C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,14 +482,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C745A1FD1D7E15A7004B57C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C745A1FE1D7E15A7004B57C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C745A2021D7E15A7004B57C1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
