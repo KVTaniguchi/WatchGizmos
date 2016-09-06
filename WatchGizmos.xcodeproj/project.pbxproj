@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FD81506964EA3234494706D /* libPods-WatchGizmos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBE1DAE97A269FFB32A2446 /* libPods-WatchGizmos.a */; };
+		51C4573F6804670A24079E8A /* Pods_WatchGizmos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95D4FDECF96F633ECFDF611 /* Pods_WatchGizmos.framework */; };
 		C745A1FA1D7E15A7004B57C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A1F91D7E15A7004B57C1 /* AppDelegate.swift */; };
 		C745A2011D7E15A7004B57C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C745A2001D7E15A7004B57C1 /* Assets.xcassets */; };
 		C745A2041D7E15A7004B57C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C745A2021D7E15A7004B57C1 /* LaunchScreen.storyboard */; };
@@ -86,7 +86,6 @@
 
 /* Begin PBXFileReference section */
 		4251887AA549312D56BD4983 /* Pods-WatchGizmos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchGizmos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchGizmos/Pods-WatchGizmos.debug.xcconfig"; sourceTree = "<group>"; };
-		5FBE1DAE97A269FFB32A2446 /* libPods-WatchGizmos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchGizmos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F1A3FFC31444A6CB8BDED9A /* Pods-WatchGizmos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchGizmos.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchGizmos/Pods-WatchGizmos.release.xcconfig"; sourceTree = "<group>"; };
 		C745A1F61D7E15A7004B57C1 /* WatchGizmos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchGizmos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C745A1F91D7E15A7004B57C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +113,7 @@
 		C745A2521D7E1C04004B57C1 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		C745A2541D7E1DD7004B57C1 /* WatchConnectivityHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchConnectivityHelpers.swift; sourceTree = "<group>"; };
 		C745A25B1D7E2076004B57C1 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		C95D4FDECF96F633ECFDF611 /* Pods_WatchGizmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchGizmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FD81506964EA3234494706D /* libPods-WatchGizmos.a in Frameworks */,
+				51C4573F6804670A24079E8A /* Pods_WatchGizmos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +168,7 @@
 		A8E8784DC86114365971CFDB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5FBE1DAE97A269FFB32A2446 /* libPods-WatchGizmos.a */,
+				C95D4FDECF96F633ECFDF611 /* Pods_WatchGizmos.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

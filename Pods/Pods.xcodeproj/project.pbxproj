@@ -7,85 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09379CEEF3BB0AF48D7E88F0C95F4727 /* ACEDrawingTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8A761CDFC4B40717DA79A9944A190F /* ACEDrawingTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D485E00013138C9C3441961EBF0A580 /* ACEDrawingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 31B22D5698312DD2250E69A3EF93F705 /* ACEDrawingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62A0C1DDE059B4D27D79A0DECC3965D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		697153DE7419690E2BFBB60F4115CDCB /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6F3951CFA7643229A3C74DA2AC4FAC /* ACEDrawingView.m */; };
-		7E1D7CFAD83CA55AD167BAB3BABFFEF1 /* ACEDrawingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C038965A53A5E324B58CCC43AF0AD8CE /* ACEDrawingView-dummy.m */; };
-		C3CD1BACF90D50406C68C263DD5F7647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E65A5D38C6E78DB11A8545D434DCEE91 /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5275DFDF93169308732CC061F7D012FC /* ACEDrawingTools.m */; };
-		EE2DC53F15DB4D5C7E6D57CC1C7702CB /* Pods-WatchGizmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E486304FB689246E7F94F701529B0C5 /* Pods-WatchGizmos-dummy.m */; };
+		38BD68EAF4E91166D1CA3CDAC1A3E71E /* ACEDrawingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 143257EA33AEE7AB3EF38B41F1494076 /* ACEDrawingView-dummy.m */; };
+		4F2A02F68769E985E5769B6153725B55 /* Pods-WatchGizmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0BBCD5618EB3A3EA42F99D76D3C671 /* Pods-WatchGizmos-dummy.m */; };
+		683A05EA3B03D839FC0D157C9A74F1AD /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C63D401FD1AAFBA81A48C1A49C783 /* ACEDrawingTools.m */; };
+		73BA68C60CB5242394F07F1A0206270B /* ACEDrawingTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1A415A4193429D595A7877A33CD2A8 /* ACEDrawingTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		778B7FDD69FED789DBE3F2FD7ECFDBD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		8E3E3E654A441FE44617004A01C7DBE9 /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6334C390A89D973DDDDA8CA8FE2B50 /* ACEDrawingView.m */; };
+		9D85010140D5D7C51D2CA58407E561CD /* ACEDrawingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4778CD915C7776E177402A2C08E46C /* ACEDrawingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A57F22302E95514BE258C8532AA707BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		ACA3751B7CAB1FC099AA5F86701D408D /* ACEDrawingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 525BC410A88CB2138844CC858F10852F /* ACEDrawingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE90E3F6881C7EB14C830F805E6F7188 /* Pods-WatchGizmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5EFFB99F1BFC9B149E18B6B36A409C /* Pods-WatchGizmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		195E340CA06F4CCE1DE77C2EB33EDD5C /* PBXContainerItemProxy */ = {
+		E5FF7741CCDA455E4A5AB4449662F13B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2B1CB56A5F4491950E9BBE77A7CBD3E7;
+			remoteGlobalIDString = F23EF643357DE4902A2E6096F77BF758;
 			remoteInfo = ACEDrawingView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0220FA7F900E0DFD9310BA411C5955DF /* libACEDrawingView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libACEDrawingView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E486304FB689246E7F94F701529B0C5 /* Pods-WatchGizmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchGizmos-dummy.m"; sourceTree = "<group>"; };
-		20B28FF137FEAC188105613F780E6681 /* ACEDrawingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACEDrawingView-prefix.pch"; sourceTree = "<group>"; };
-		31B22D5698312DD2250E69A3EF93F705 /* ACEDrawingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACEDrawingView.h; path = ACEDrawingView/ACEDrawingView.h; sourceTree = "<group>"; };
-		4397D5F6C0721C1CD210263F2F1DF06E /* Pods-WatchGizmos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchGizmos-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5275DFDF93169308732CC061F7D012FC /* ACEDrawingTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingTools.m; path = ACEDrawingView/ACEDrawingTools.m; sourceTree = "<group>"; };
-		7E8A761CDFC4B40717DA79A9944A190F /* ACEDrawingTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACEDrawingTools.h; path = ACEDrawingView/ACEDrawingTools.h; sourceTree = "<group>"; };
+		088F65909D94774919B07370F7A7724B /* ACEDrawingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ACEDrawingView.modulemap; sourceTree = "<group>"; };
+		1118410ECBD3C8FD7E65633BA57579D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143257EA33AEE7AB3EF38B41F1494076 /* ACEDrawingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ACEDrawingView-dummy.m"; sourceTree = "<group>"; };
+		341FACA4AF0AE719F3B28F391ADB3271 /* ACEDrawingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ACEDrawingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3814EAE239A1D9F0EA655B2C23BA20BA /* Pods-WatchGizmos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchGizmos-acknowledgements.plist"; sourceTree = "<group>"; };
+		405C63D401FD1AAFBA81A48C1A49C783 /* ACEDrawingTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingTools.m; path = ACEDrawingView/ACEDrawingTools.m; sourceTree = "<group>"; };
+		4EE99002CBBAB6CE90FBAD76BB73621A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525BC410A88CB2138844CC858F10852F /* ACEDrawingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACEDrawingView-umbrella.h"; sourceTree = "<group>"; };
+		53CEB328F4B1F80C717F7DF7B991249E /* ACEDrawingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACEDrawingView-prefix.pch"; sourceTree = "<group>"; };
+		5A1A415A4193429D595A7877A33CD2A8 /* ACEDrawingTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACEDrawingTools.h; path = ACEDrawingView/ACEDrawingTools.h; sourceTree = "<group>"; };
+		5B0C0CBE839E2138C8F0A8A3F6F1D55A /* ACEDrawingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ACEDrawingView.xcconfig; sourceTree = "<group>"; };
+		5C0BBCD5618EB3A3EA42F99D76D3C671 /* Pods-WatchGizmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchGizmos-dummy.m"; sourceTree = "<group>"; };
+		653CB1C4B09678EA428DB0B42FD98577 /* Pods_WatchGizmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchGizmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B5D674DD67C3A026C7458A83283493 /* Pods-WatchGizmos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchGizmos.debug.xcconfig"; sourceTree = "<group>"; };
+		8D4778CD915C7776E177402A2C08E46C /* ACEDrawingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACEDrawingView.h; path = ACEDrawingView/ACEDrawingView.h; sourceTree = "<group>"; };
+		8DC1D472F515F24BBA1001C1C91A02DA /* Pods-WatchGizmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WatchGizmos.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0EBF73EAF318136B4BB28E4733069B3 /* Pods-WatchGizmos-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchGizmos-frameworks.sh"; sourceTree = "<group>"; };
-		AA6F3951CFA7643229A3C74DA2AC4FAC /* ACEDrawingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingView.m; path = ACEDrawingView/ACEDrawingView.m; sourceTree = "<group>"; };
-		BCA1F138A8513911C599B885B7BF80B2 /* Pods-WatchGizmos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchGizmos-acknowledgements.plist"; sourceTree = "<group>"; };
-		C038965A53A5E324B58CCC43AF0AD8CE /* ACEDrawingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ACEDrawingView-dummy.m"; sourceTree = "<group>"; };
-		C602201C90B237DD1BCB51BD384508DE /* ACEDrawingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ACEDrawingView.xcconfig; sourceTree = "<group>"; };
-		CE2432ADDB8264D5A970C4482DB178A8 /* Pods-WatchGizmos-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchGizmos-resources.sh"; sourceTree = "<group>"; };
+		9BA09DD38239D646020423CB2AEF2EC4 /* Pods-WatchGizmos-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchGizmos-resources.sh"; sourceTree = "<group>"; };
+		A5037ADDEAD04D3220B568273EF28335 /* Pods-WatchGizmos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchGizmos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB5535F37B53027EE1393F98CC8DC686 /* Pods-WatchGizmos-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchGizmos-frameworks.sh"; sourceTree = "<group>"; };
+		C4C83C0ECBEEA8AE9DD8FA424ADE185D /* Pods-WatchGizmos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchGizmos.release.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D128FCAAFE100A9F57B22FF4B4EFFDF6 /* Pods-WatchGizmos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchGizmos.debug.xcconfig"; sourceTree = "<group>"; };
-		D660165307C20A38EA295A5E9DCA9D7E /* libPods-WatchGizmos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchGizmos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3051A825ABBDAB3A2FA5E74AC511676 /* Pods-WatchGizmos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchGizmos.release.xcconfig"; sourceTree = "<group>"; };
+		DD5EFFB99F1BFC9B149E18B6B36A409C /* Pods-WatchGizmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchGizmos-umbrella.h"; sourceTree = "<group>"; };
+		FE6334C390A89D973DDDDA8CA8FE2B50 /* ACEDrawingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingView.m; path = ACEDrawingView/ACEDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C2796FD12687D40C684CC2D182F14697 /* Frameworks */ = {
+		033085B844663585222F46DB5439BABA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62A0C1DDE059B4D27D79A0DECC3965D0 /* Foundation.framework in Frameworks */,
+				A57F22302E95514BE258C8532AA707BE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3100F3941EE4D47D363687B1E6B4810 /* Frameworks */ = {
+		48DBD435A7644314EF06789A10FC7DDB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3CD1BACF90D50406C68C263DD5F7647 /* Foundation.framework in Frameworks */,
+				778B7FDD69FED789DBE3F2FD7ECFDBD2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AA05E658D85F80034CD5354347C6C22 /* Targets Support Files */ = {
+		11F4544E5FDD0438A31E71C29FAF0E2C /* Pods-WatchGizmos */ = {
 			isa = PBXGroup;
 			children = (
-				AC489813A446564F82637A552AF3FDF5 /* Pods-WatchGizmos */,
+				4EE99002CBBAB6CE90FBAD76BB73621A /* Info.plist */,
+				8DC1D472F515F24BBA1001C1C91A02DA /* Pods-WatchGizmos.modulemap */,
+				A5037ADDEAD04D3220B568273EF28335 /* Pods-WatchGizmos-acknowledgements.markdown */,
+				3814EAE239A1D9F0EA655B2C23BA20BA /* Pods-WatchGizmos-acknowledgements.plist */,
+				5C0BBCD5618EB3A3EA42F99D76D3C671 /* Pods-WatchGizmos-dummy.m */,
+				AB5535F37B53027EE1393F98CC8DC686 /* Pods-WatchGizmos-frameworks.sh */,
+				9BA09DD38239D646020423CB2AEF2EC4 /* Pods-WatchGizmos-resources.sh */,
+				DD5EFFB99F1BFC9B149E18B6B36A409C /* Pods-WatchGizmos-umbrella.h */,
+				85B5D674DD67C3A026C7458A83283493 /* Pods-WatchGizmos.debug.xcconfig */,
+				C4C83C0ECBEEA8AE9DD8FA424ADE185D /* Pods-WatchGizmos.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-WatchGizmos";
+			path = "Target Support Files/Pods-WatchGizmos";
 			sourceTree = "<group>";
 		};
-		1B034126925975537A05879C04671B8C /* ACEDrawingView */ = {
+		1D7FD60C65068B6757FBEA6BA181F4A5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7E8A761CDFC4B40717DA79A9944A190F /* ACEDrawingTools.h */,
-				5275DFDF93169308732CC061F7D012FC /* ACEDrawingTools.m */,
-				31B22D5698312DD2250E69A3EF93F705 /* ACEDrawingView.h */,
-				AA6F3951CFA7643229A3C74DA2AC4FAC /* ACEDrawingView.m */,
-				87E61D43C26BE282203512DEFEC265AD /* Support Files */,
+				11F4544E5FDD0438A31E71C29FAF0E2C /* Pods-WatchGizmos */,
 			);
-			path = ACEDrawingView;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -96,56 +110,56 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		48AC668C8793C520A232E4487A182394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				341FACA4AF0AE719F3B28F391ADB3271 /* ACEDrawingView.framework */,
+				653CB1C4B09678EA428DB0B42FD98577 /* Pods_WatchGizmos.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA3BF2EC7049FBA8AA3E854D6B551E3 /* ACEDrawingView */ = {
+			isa = PBXGroup;
+			children = (
+				5A1A415A4193429D595A7877A33CD2A8 /* ACEDrawingTools.h */,
+				405C63D401FD1AAFBA81A48C1A49C783 /* ACEDrawingTools.m */,
+				8D4778CD915C7776E177402A2C08E46C /* ACEDrawingView.h */,
+				FE6334C390A89D973DDDDA8CA8FE2B50 /* ACEDrawingView.m */,
+				AC9A062A24B9D5B287EF31A67AF7F36A /* Support Files */,
+			);
+			path = ACEDrawingView;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				B9A285930B84409E835B8FD081213A46 /* Pods */,
-				B669317BBB855F69D593C58081D5F09E /* Products */,
-				0AA05E658D85F80034CD5354347C6C22 /* Targets Support Files */,
+				48AC668C8793C520A232E4487A182394 /* Products */,
+				1D7FD60C65068B6757FBEA6BA181F4A5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		87E61D43C26BE282203512DEFEC265AD /* Support Files */ = {
+		AC9A062A24B9D5B287EF31A67AF7F36A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C602201C90B237DD1BCB51BD384508DE /* ACEDrawingView.xcconfig */,
-				C038965A53A5E324B58CCC43AF0AD8CE /* ACEDrawingView-dummy.m */,
-				20B28FF137FEAC188105613F780E6681 /* ACEDrawingView-prefix.pch */,
+				088F65909D94774919B07370F7A7724B /* ACEDrawingView.modulemap */,
+				5B0C0CBE839E2138C8F0A8A3F6F1D55A /* ACEDrawingView.xcconfig */,
+				143257EA33AEE7AB3EF38B41F1494076 /* ACEDrawingView-dummy.m */,
+				53CEB328F4B1F80C717F7DF7B991249E /* ACEDrawingView-prefix.pch */,
+				525BC410A88CB2138844CC858F10852F /* ACEDrawingView-umbrella.h */,
+				1118410ECBD3C8FD7E65633BA57579D4 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ACEDrawingView";
 			sourceTree = "<group>";
 		};
-		AC489813A446564F82637A552AF3FDF5 /* Pods-WatchGizmos */ = {
-			isa = PBXGroup;
-			children = (
-				4397D5F6C0721C1CD210263F2F1DF06E /* Pods-WatchGizmos-acknowledgements.markdown */,
-				BCA1F138A8513911C599B885B7BF80B2 /* Pods-WatchGizmos-acknowledgements.plist */,
-				1E486304FB689246E7F94F701529B0C5 /* Pods-WatchGizmos-dummy.m */,
-				A0EBF73EAF318136B4BB28E4733069B3 /* Pods-WatchGizmos-frameworks.sh */,
-				CE2432ADDB8264D5A970C4482DB178A8 /* Pods-WatchGizmos-resources.sh */,
-				D128FCAAFE100A9F57B22FF4B4EFFDF6 /* Pods-WatchGizmos.debug.xcconfig */,
-				E3051A825ABBDAB3A2FA5E74AC511676 /* Pods-WatchGizmos.release.xcconfig */,
-			);
-			name = "Pods-WatchGizmos";
-			path = "Target Support Files/Pods-WatchGizmos";
-			sourceTree = "<group>";
-		};
-		B669317BBB855F69D593C58081D5F09E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0220FA7F900E0DFD9310BA411C5955DF /* libACEDrawingView.a */,
-				D660165307C20A38EA295A5E9DCA9D7E /* libPods-WatchGizmos.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		B9A285930B84409E835B8FD081213A46 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1B034126925975537A05879C04671B8C /* ACEDrawingView */,
+				5FA3BF2EC7049FBA8AA3E854D6B551E3 /* ACEDrawingView */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -161,42 +175,52 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F209EDD94B0991AD944C51EC9BB686A3 /* Headers */ = {
+		61F114E18402A15C34996DD6AD8AB3D0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09379CEEF3BB0AF48D7E88F0C95F4727 /* ACEDrawingTools.h in Headers */,
-				1D485E00013138C9C3441961EBF0A580 /* ACEDrawingView.h in Headers */,
+				73BA68C60CB5242394F07F1A0206270B /* ACEDrawingTools.h in Headers */,
+				ACA3751B7CAB1FC099AA5F86701D408D /* ACEDrawingView-umbrella.h in Headers */,
+				9D85010140D5D7C51D2CA58407E561CD /* ACEDrawingView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C063B4035158B30F2DCFEC9B7268CF3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE90E3F6881C7EB14C830F805E6F7188 /* Pods-WatchGizmos-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2AED04971D4B637ECC79729DC14A0ABA /* Pods-WatchGizmos */ = {
+		67E83443C6B317CD8B346B0FC3BE9E3B /* Pods-WatchGizmos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 874E0779EEB1602DADB0A719A4A842AE /* Build configuration list for PBXNativeTarget "Pods-WatchGizmos" */;
+			buildConfigurationList = 85A0691361819D18664165D2DF2D4547 /* Build configuration list for PBXNativeTarget "Pods-WatchGizmos" */;
 			buildPhases = (
-				7A085D79890A3F6B920A856C40458DE5 /* Sources */,
-				C2796FD12687D40C684CC2D182F14697 /* Frameworks */,
+				B885D1E7B975D9FC54F6F53C9F7B525C /* Sources */,
+				033085B844663585222F46DB5439BABA /* Frameworks */,
+				C063B4035158B30F2DCFEC9B7268CF3D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F8FE95F63212E7AF05E1A86955AAAD27 /* PBXTargetDependency */,
+				4243014C140988447D5A5F0327636D2D /* PBXTargetDependency */,
 			);
 			name = "Pods-WatchGizmos";
 			productName = "Pods-WatchGizmos";
-			productReference = D660165307C20A38EA295A5E9DCA9D7E /* libPods-WatchGizmos.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 653CB1C4B09678EA428DB0B42FD98577 /* Pods_WatchGizmos.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		2B1CB56A5F4491950E9BBE77A7CBD3E7 /* ACEDrawingView */ = {
+		F23EF643357DE4902A2E6096F77BF758 /* ACEDrawingView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6085EFA6BBBB934E54CAAEB5BBE0BFE /* Build configuration list for PBXNativeTarget "ACEDrawingView" */;
+			buildConfigurationList = AB374F239ECAC6401511027E0F61E1BB /* Build configuration list for PBXNativeTarget "ACEDrawingView" */;
 			buildPhases = (
-				134D67EB21A2525CDB4F0867DC3689DF /* Sources */,
-				E3100F3941EE4D47D363687B1E6B4810 /* Frameworks */,
-				F209EDD94B0991AD944C51EC9BB686A3 /* Headers */,
+				8D19671B80D607DBE94E50122C7BF1A0 /* Sources */,
+				48DBD435A7644314EF06789A10FC7DDB /* Frameworks */,
+				61F114E18402A15C34996DD6AD8AB3D0 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -204,8 +228,8 @@
 			);
 			name = ACEDrawingView;
 			productName = ACEDrawingView;
-			productReference = 0220FA7F900E0DFD9310BA411C5955DF /* libACEDrawingView.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 341FACA4AF0AE719F3B28F391ADB3271 /* ACEDrawingView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -224,47 +248,76 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B669317BBB855F69D593C58081D5F09E /* Products */;
+			productRefGroup = 48AC668C8793C520A232E4487A182394 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B1CB56A5F4491950E9BBE77A7CBD3E7 /* ACEDrawingView */,
-				2AED04971D4B637ECC79729DC14A0ABA /* Pods-WatchGizmos */,
+				F23EF643357DE4902A2E6096F77BF758 /* ACEDrawingView */,
+				67E83443C6B317CD8B346B0FC3BE9E3B /* Pods-WatchGizmos */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		134D67EB21A2525CDB4F0867DC3689DF /* Sources */ = {
+		8D19671B80D607DBE94E50122C7BF1A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E65A5D38C6E78DB11A8545D434DCEE91 /* ACEDrawingTools.m in Sources */,
-				7E1D7CFAD83CA55AD167BAB3BABFFEF1 /* ACEDrawingView-dummy.m in Sources */,
-				697153DE7419690E2BFBB60F4115CDCB /* ACEDrawingView.m in Sources */,
+				683A05EA3B03D839FC0D157C9A74F1AD /* ACEDrawingTools.m in Sources */,
+				38BD68EAF4E91166D1CA3CDAC1A3E71E /* ACEDrawingView-dummy.m in Sources */,
+				8E3E3E654A441FE44617004A01C7DBE9 /* ACEDrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A085D79890A3F6B920A856C40458DE5 /* Sources */ = {
+		B885D1E7B975D9FC54F6F53C9F7B525C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE2DC53F15DB4D5C7E6D57CC1C7702CB /* Pods-WatchGizmos-dummy.m in Sources */,
+				4F2A02F68769E985E5769B6153725B55 /* Pods-WatchGizmos-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F8FE95F63212E7AF05E1A86955AAAD27 /* PBXTargetDependency */ = {
+		4243014C140988447D5A5F0327636D2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ACEDrawingView;
-			target = 2B1CB56A5F4491950E9BBE77A7CBD3E7 /* ACEDrawingView */;
-			targetProxy = 195E340CA06F4CCE1DE77C2EB33EDD5C /* PBXContainerItemProxy */;
+			target = F23EF643357DE4902A2E6096F77BF758 /* ACEDrawingView */;
+			targetProxy = E5FF7741CCDA455E4A5AB4449662F13B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3B763A81C46A793D3AEF9C3B99F37C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0C0CBE839E2138C8F0A8A3F6F1D55A /* ACEDrawingView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ACEDrawingView/ACEDrawingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ACEDrawingView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ACEDrawingView/ACEDrawingView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ACEDrawingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -303,26 +356,67 @@
 			};
 			name = Release;
 		};
-		6B1F022FE06A9F603CE6C4B6FCC27A8D /* Release */ = {
+		4536611FCA7487509AF4C0B2FCDF0B10 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3051A825ABBDAB3A2FA5E74AC511676 /* Pods-WatchGizmos.release.xcconfig */;
+			baseConfigurationReference = 5B0C0CBE839E2138C8F0A8A3F6F1D55A /* ACEDrawingView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ACEDrawingView/ACEDrawingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ACEDrawingView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ACEDrawingView/ACEDrawingView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ACEDrawingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A08C33A338B38A76C401D11723F1DEB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B5D674DD67C3A026C7458A83283493 /* Pods-WatchGizmos.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WatchGizmos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MODULEMAP_FILE = "Target Support Files/Pods-WatchGizmos/Pods-WatchGizmos.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods_WatchGizmos;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		AE9439C22469D35336242DD983DB5C5F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -366,68 +460,38 @@
 			};
 			name = Debug;
 		};
-		BCD2F92498ABDF29AE4FBCF9E15B120D /* Debug */ = {
+		C9361D6F6822B1D4928459BD29090971 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C602201C90B237DD1BCB51BD384508DE /* ACEDrawingView.xcconfig */;
+			baseConfigurationReference = C4C83C0ECBEEA8AE9DD8FA424ADE185D /* Pods-WatchGizmos.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ACEDrawingView/ACEDrawingView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		CF93106D1D01D32E52D0FD2058B3AFDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C602201C90B237DD1BCB51BD384508DE /* ACEDrawingView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ACEDrawingView/ACEDrawingView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		FB758FBB33AE2CFFA99C28C85396B433 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D128FCAAFE100A9F57B22FF4B4EFFDF6 /* Pods-WatchGizmos.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WatchGizmos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Pods-WatchGizmos/Pods-WatchGizmos.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods_WatchGizmos;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -441,20 +505,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		874E0779EEB1602DADB0A719A4A842AE /* Build configuration list for PBXNativeTarget "Pods-WatchGizmos" */ = {
+		85A0691361819D18664165D2DF2D4547 /* Build configuration list for PBXNativeTarget "Pods-WatchGizmos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB758FBB33AE2CFFA99C28C85396B433 /* Debug */,
-				6B1F022FE06A9F603CE6C4B6FCC27A8D /* Release */,
+				A08C33A338B38A76C401D11723F1DEB9 /* Debug */,
+				C9361D6F6822B1D4928459BD29090971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6085EFA6BBBB934E54CAAEB5BBE0BFE /* Build configuration list for PBXNativeTarget "ACEDrawingView" */ = {
+		AB374F239ECAC6401511027E0F61E1BB /* Build configuration list for PBXNativeTarget "ACEDrawingView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCD2F92498ABDF29AE4FBCF9E15B120D /* Debug */,
-				CF93106D1D01D32E52D0FD2058B3AFDE /* Release */,
+				4536611FCA7487509AF4C0B2FCDF0B10 /* Debug */,
+				3B763A81C46A793D3AEF9C3B99F37C24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

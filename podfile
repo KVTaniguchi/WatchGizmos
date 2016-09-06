@@ -1,3 +1,4 @@
+use_frameworks!
 target 'WatchGizmos' do
 pod 'ACEDrawingView'
 end
