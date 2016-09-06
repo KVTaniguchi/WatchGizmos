@@ -1,5 +1,5 @@
 //
-//  GalleryViewController.swift
+//  DrawViewController.swift
 //  WatchGizmos
 //
 //  Created by Kevin Taniguchi on 9/5/16.
@@ -8,10 +8,8 @@
 
 import UIKit
 
-class GalleryViewController: UIViewController {
-    let currentStickerImageView = UIImageView()
-    let goToDrawButton = UIButton()
-    let goToGalleryButton = UIButton()
+class DrawViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

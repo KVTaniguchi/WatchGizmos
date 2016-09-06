@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FD81506964EA3234494706D /* libPods-WatchGizmos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBE1DAE97A269FFB32A2446 /* libPods-WatchGizmos.a */; };
 		C745A1FA1D7E15A7004B57C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A1F91D7E15A7004B57C1 /* AppDelegate.swift */; };
 		C745A2011D7E15A7004B57C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C745A2001D7E15A7004B57C1 /* Assets.xcassets */; };
 		C745A2041D7E15A7004B57C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C745A2021D7E15A7004B57C1 /* LaunchScreen.storyboard */; };
@@ -24,6 +25,7 @@
 		C745A2511D7E1B7C004B57C1 /* CloudKitHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A2501D7E1B7C004B57C1 /* CloudKitHelpers.swift */; };
 		C745A2531D7E1C04004B57C1 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A2521D7E1C04004B57C1 /* GalleryViewController.swift */; };
 		C745A2551D7E1DD7004B57C1 /* WatchConnectivityHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A2541D7E1DD7004B57C1 /* WatchConnectivityHelpers.swift */; };
+		C745A25C1D7E2076004B57C1 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A25B1D7E2076004B57C1 /* DrawViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4251887AA549312D56BD4983 /* Pods-WatchGizmos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchGizmos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchGizmos/Pods-WatchGizmos.debug.xcconfig"; sourceTree = "<group>"; };
+		5FBE1DAE97A269FFB32A2446 /* libPods-WatchGizmos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchGizmos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1A3FFC31444A6CB8BDED9A /* Pods-WatchGizmos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchGizmos.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchGizmos/Pods-WatchGizmos.release.xcconfig"; sourceTree = "<group>"; };
 		C745A1F61D7E15A7004B57C1 /* WatchGizmos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchGizmos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C745A1F91D7E15A7004B57C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C745A2001D7E15A7004B57C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -108,13 +113,22 @@
 		C745A2501D7E1B7C004B57C1 /* CloudKitHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitHelpers.swift; sourceTree = "<group>"; };
 		C745A2521D7E1C04004B57C1 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		C745A2541D7E1DD7004B57C1 /* WatchConnectivityHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchConnectivityHelpers.swift; sourceTree = "<group>"; };
+		C745A25B1D7E2076004B57C1 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		397B63EE092E040E4CA61A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C745A1F31D7E15A7004B57C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD81506964EA3234494706D /* libPods-WatchGizmos.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +156,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86CE1E1D150B09F8EE4FB01F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4251887AA549312D56BD4983 /* Pods-WatchGizmos.debug.xcconfig */,
+				6F1A3FFC31444A6CB8BDED9A /* Pods-WatchGizmos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8E8784DC86114365971CFDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FBE1DAE97A269FFB32A2446 /* libPods-WatchGizmos.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C745A1ED1D7E15A7004B57C1 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +182,8 @@
 				C745A2221D7E15A7004B57C1 /* WatchGizmos WatchKit App */,
 				C745A2311D7E15A7004B57C1 /* WatchGizmos WatchKit Extension */,
 				C745A1F71D7E15A7004B57C1 /* Products */,
+				86CE1E1D150B09F8EE4FB01F /* Pods */,
+				A8E8784DC86114365971CFDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,14 +202,15 @@
 		C745A1F81D7E15A7004B57C1 /* WatchGizmos */ = {
 			isa = PBXGroup;
 			children = (
+				C745A25A1D7E1F4E004B57C1 /* Draw */,
+				C745A2591D7E1EE4004B57C1 /* Gallery */,
+				C745A2581D7E1ECB004B57C1 /* WatchConnectivity */,
+				C745A2571D7E1EBA004B57C1 /* CloudKitHelpers */,
+				C745A2561D7E1EAF004B57C1 /* CurrentSticker */,
 				C745A1F91D7E15A7004B57C1 /* AppDelegate.swift */,
 				C745A2001D7E15A7004B57C1 /* Assets.xcassets */,
 				C745A2021D7E15A7004B57C1 /* LaunchScreen.storyboard */,
 				C745A2051D7E15A7004B57C1 /* Info.plist */,
-				C745A24E1D7E163A004B57C1 /* CurrentStickerViewController.swift */,
-				C745A2501D7E1B7C004B57C1 /* CloudKitHelpers.swift */,
-				C745A2521D7E1C04004B57C1 /* GalleryViewController.swift */,
-				C745A2541D7E1DD7004B57C1 /* WatchConnectivityHelpers.swift */,
 			);
 			path = WatchGizmos;
 			sourceTree = "<group>";
@@ -221,6 +255,46 @@
 			path = "WatchGizmos WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		C745A2561D7E1EAF004B57C1 /* CurrentSticker */ = {
+			isa = PBXGroup;
+			children = (
+				C745A24E1D7E163A004B57C1 /* CurrentStickerViewController.swift */,
+			);
+			name = CurrentSticker;
+			sourceTree = "<group>";
+		};
+		C745A2571D7E1EBA004B57C1 /* CloudKitHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				C745A2501D7E1B7C004B57C1 /* CloudKitHelpers.swift */,
+			);
+			name = CloudKitHelpers;
+			sourceTree = "<group>";
+		};
+		C745A2581D7E1ECB004B57C1 /* WatchConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				C745A2541D7E1DD7004B57C1 /* WatchConnectivityHelpers.swift */,
+			);
+			name = WatchConnectivity;
+			sourceTree = "<group>";
+		};
+		C745A2591D7E1EE4004B57C1 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				C745A2521D7E1C04004B57C1 /* GalleryViewController.swift */,
+			);
+			name = Gallery;
+			sourceTree = "<group>";
+		};
+		C745A25A1D7E1F4E004B57C1 /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				C745A25B1D7E2076004B57C1 /* DrawViewController.swift */,
+			);
+			name = Draw;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,10 +302,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C745A2451D7E15A7004B57C1 /* Build configuration list for PBXNativeTarget "WatchGizmos" */;
 			buildPhases = (
+				C13DBEF26AA769536A7E5A11 /* [CP] Check Pods Manifest.lock */,
 				C745A1F21D7E15A7004B57C1 /* Sources */,
 				C745A1F31D7E15A7004B57C1 /* Frameworks */,
 				C745A1F41D7E15A7004B57C1 /* Resources */,
 				C745A2441D7E15A7004B57C1 /* Embed Watch Content */,
+				4AC1FA97652144B0A20D24E9 /* [CP] Embed Pods Frameworks */,
+				8FBCCD07E303AF92069CADF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -285,6 +362,7 @@
 			buildPhases = (
 				C745A21C1D7E15A7004B57C1 /* Resources */,
 				C745A2401D7E15A7004B57C1 /* Embed App Extensions */,
+				397B63EE092E040E4CA61A5F /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -417,11 +495,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AC1FA97652144B0A20D24E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchGizmos/Pods-WatchGizmos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FBCCD07E303AF92069CADF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchGizmos/Pods-WatchGizmos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C13DBEF26AA769536A7E5A11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C745A1F21D7E15A7004B57C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C745A25C1D7E2076004B57C1 /* DrawViewController.swift in Sources */,
 				C745A2511D7E1B7C004B57C1 /* CloudKitHelpers.swift in Sources */,
 				C745A2531D7E1C04004B57C1 /* GalleryViewController.swift in Sources */,
 				C745A2551D7E1DD7004B57C1 /* WatchConnectivityHelpers.swift in Sources */,
@@ -664,6 +791,7 @@
 		};
 		C745A2461D7E15A7004B57C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4251887AA549312D56BD4983 /* Pods-WatchGizmos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3B3FT42G96;
@@ -677,6 +805,7 @@
 		};
 		C745A2471D7E15A7004B57C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1A3FFC31444A6CB8BDED9A /* Pods-WatchGizmos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3B3FT42G96;
@@ -765,6 +894,7 @@
 				C745A23F1D7E15A7004B57C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C745A2411D7E15A7004B57C1 /* Build configuration list for PBXNativeTarget "WatchGizmos WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -773,6 +903,7 @@
 				C745A2431D7E15A7004B57C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C745A2451D7E15A7004B57C1 /* Build configuration list for PBXNativeTarget "WatchGizmos" */ = {
 			isa = XCConfigurationList;
@@ -781,6 +912,7 @@
 				C745A2471D7E15A7004B57C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C745A2481D7E15A7004B57C1 /* Build configuration list for PBXNativeTarget "WatchGizmosTests" */ = {
 			isa = XCConfigurationList;
@@ -789,6 +921,7 @@
 				C745A24A1D7E15A7004B57C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C745A24B1D7E15A7004B57C1 /* Build configuration list for PBXNativeTarget "WatchGizmosUITests" */ = {
 			isa = XCConfigurationList;
@@ -797,6 +930,7 @@
 				C745A24D1D7E15A7004B57C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

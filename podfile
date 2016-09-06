@@ -1,0 +1,3 @@
+target 'WatchGizmos' do
+pod 'ACEDrawingView'
+end
