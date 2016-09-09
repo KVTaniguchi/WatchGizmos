@@ -32,7 +32,6 @@ extension CurrentStickerViewController {
         galleryButton.backgroundColor = .orange
         drawButton.backgroundColor = .blue
         updateButton.backgroundColor = .green
-        
         currentSticker.backgroundColor = .red
         
         currentSticker.heightAnchor.constraint(equalToConstant: currentStickerHeight).isActive = true
@@ -61,14 +60,16 @@ extension CurrentStickerViewController {
     }
     
     func galleryButtonPressed() {
-        
+        let galleryViewController = GalleryViewController()
+        navigationController?.pushViewController(galleryViewController, animated: true)
     }
     
     func updateButtonPressed() {
-        
+        // send to watch // pull down latest
     }
     
     func drawButtonPressed() {
-        
+        let drawViewController = DrawViewController()
+        navigationController?.pushViewController(drawViewController, animated: true)
     }
 }
