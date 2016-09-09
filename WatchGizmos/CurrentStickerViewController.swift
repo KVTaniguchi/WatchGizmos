@@ -21,6 +21,7 @@ class CurrentStickerViewController: UIViewController {
 
         title = "⌚️ Stickers"
         
+        setUpButtons()
         setUpLayout()
     }
 }
@@ -33,9 +34,6 @@ extension CurrentStickerViewController {
         updateButton.backgroundColor = .green
         
         currentSticker.backgroundColor = .red
-        galleryButton.setTitle(NSLocalizedString("Gallery", comment: ""), for: .normal)
-        drawButton.setTitle(NSLocalizedString("Draw", comment: ""), for: .normal)
-        updateButton.setTitle(NSLocalizedString("Update", comment: ""), for: .normal)
         
         currentSticker.heightAnchor.constraint(equalToConstant: currentStickerHeight).isActive = true
         currentSticker.widthAnchor.constraint(equalToConstant: currentStickerHeight).isActive = true
@@ -49,5 +47,28 @@ extension CurrentStickerViewController {
         view.addSubview(stackView)
         NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "H:|[stackView]|", options: [], metrics: nil, views: ["stackView": stackView]))
         NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "V:|-60-[stackView]|", options: [], metrics: nil, views: ["stackView": stackView]))
+    }
+}
+
+extension CurrentStickerViewController {
+    func setUpButtons() {
+        galleryButton.setTitle(NSLocalizedString("Gallery", comment: ""), for: .normal)
+        drawButton.setTitle(NSLocalizedString("Draw", comment: ""), for: .normal)
+        updateButton.setTitle(NSLocalizedString("Update", comment: ""), for: .normal)
+        galleryButton.addTarget(self, action: #selector(galleryButtonPressed), for: .touchUpInside)
+        drawButton.addTarget(self, action: #selector(drawButtonPressed), for: .touchUpInside)
+        updateButton.addTarget(self, action: #selector(updateButtonPressed), for: .touchUpInside)
+    }
+    
+    func galleryButtonPressed() {
+        
+    }
+    
+    func updateButtonPressed() {
+        
+    }
+    
+    func drawButtonPressed() {
+        
     }
 }
