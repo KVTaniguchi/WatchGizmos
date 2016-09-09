@@ -16,11 +16,14 @@ class DrawViewController: UIViewController {
     let colorButton = UIButton()
     let penButton = UIButton()
     let widthButton = UIButton()
-    
+    let drawingView = ACEDrawingView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        drawingView.backgroundColor = .white
+        drawingView.frame = view.frame
+        view.addSubview(drawingView)
         
     }
 }

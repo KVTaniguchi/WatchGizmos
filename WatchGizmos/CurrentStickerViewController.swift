@@ -28,7 +28,6 @@ class CurrentStickerViewController: UIViewController {
 
 extension CurrentStickerViewController {
     func setUpLayout() {
-        
         galleryButton.backgroundColor = .orange
         drawButton.backgroundColor = .blue
         updateButton.backgroundColor = .green
