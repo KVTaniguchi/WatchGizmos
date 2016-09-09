@@ -13,6 +13,8 @@ class CurrentStickerViewController: UIViewController {
     let drawButton = UIButton()
     let galleryButton = UIButton()
     let updateButton = UIButton()
+    let currentStickerHeight = UIScreen.main.bounds.width - 30
+    let stickerHeight = (UIScreen.main.bounds.width - 30)/3
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,14 +28,20 @@ class CurrentStickerViewController: UIViewController {
 extension CurrentStickerViewController {
     func setUpLayout() {
         
+        galleryButton.backgroundColor = .orange
+        drawButton.backgroundColor = .blue
+        updateButton.backgroundColor = .green
+        
         currentSticker.backgroundColor = .red
         galleryButton.setTitle(NSLocalizedString("Gallery", comment: ""), for: .normal)
         drawButton.setTitle(NSLocalizedString("Draw", comment: ""), for: .normal)
         updateButton.setTitle(NSLocalizedString("Update", comment: ""), for: .normal)
         
-        currentSticker.heightAnchor.constraint(equalToConstant: UIScreen.main.bounds.width - 30).isActive = true
-        currentSticker.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width - 30).isActive = true
-        
+        currentSticker.heightAnchor.constraint(equalToConstant: currentStickerHeight).isActive = true
+        currentSticker.widthAnchor.constraint(equalToConstant: currentStickerHeight).isActive = true
+        galleryButton.heightAnchor.constraint(equalToConstant: stickerHeight).isActive = true
+        drawButton.heightAnchor.constraint(equalToConstant: stickerHeight).isActive = true
+        updateButton.heightAnchor.constraint(equalToConstant: stickerHeight).isActive = true
         
         let stackView = UIStackView(arrangedSubviews: [currentSticker, galleryButton, drawButton, updateButton])
         stackView.axis = .vertical
