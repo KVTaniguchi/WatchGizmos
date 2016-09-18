@@ -205,6 +205,11 @@
             return ACE_AUTORELEASE([ACEDrawingLineTool new]);
         }
             
+        case ACEDrawingToolTypeArrow:
+        {
+            return ACE_AUTORELEASE([ACEDrawingArrowTool new]);
+        }
+
         case ACEDrawingToolTypeText:
         {
             return ACE_AUTORELEASE([ACEDrawingTextTool new]);
@@ -276,6 +281,10 @@
     self.currentTool.lineColor = self.lineColor;
     self.currentTool.lineAlpha = self.lineAlpha;
     
+    if (self.edgeSnapThreshold > 0 && [self.currentTool isKindOfClass:[ACEDrawingRectangleTool class]]) {
+        [self snapCurrentPointToEdges];
+    }
+    
     if ([self.currentTool class] == [ACEDrawingTextTool class]) {
         [self initializeTextBox:currentPoint WithMultiline:NO];
     } else if([self.currentTool class] == [ACEDrawingMultilineTextTool class]) {
@@ -300,6 +309,10 @@
     previousPoint2 = previousPoint1;
     previousPoint1 = [touch previousLocationInView:self];
     currentPoint = [touch locationInView:self];
+    
+    if (self.edgeSnapThreshold > 0 && [self.currentTool isKindOfClass:[ACEDrawingRectangleTool class]]) {
+        [self snapCurrentPointToEdges];
+    }
     
     if ([self.currentTool isKindOfClass:[ACEDrawingPenTool class]]) {
         CGRect bounds = [(ACEDrawingPenTool*)self.currentTool addPathPreviousPreviousPoint:previousPoint2 withPreviousPoint:previousPoint1 withCurrentPoint:currentPoint];
@@ -341,6 +354,17 @@
     [self touchesEnded:touches withEvent:event];
 }
 
+- (void) snapCurrentPointToEdges
+{
+    int xMax = self.frame.size.width;
+    int yMax = self.frame.size.height;
+    
+    if(currentPoint.x < self.edgeSnapThreshold) currentPoint.x = 0;
+    else if(currentPoint.x > xMax - self.edgeSnapThreshold) currentPoint.x = xMax;
+    if(currentPoint.y < self.edgeSnapThreshold) currentPoint.y = 0;
+    else if(currentPoint.y > yMax - self.edgeSnapThreshold) currentPoint.y = yMax;
+}
+
 #pragma mark - Text Entry
 
 - (void)initializeTextBox:(CGPoint)startingPoint WithMultiline:(BOOL)multiline {
@@ -363,7 +387,11 @@
     
     int calculatedFontSize = self.lineWidth * 3; //3 is an approximate size factor
     
-    [self.textView setFont:[UIFont systemFontOfSize:calculatedFontSize]];
+    if(self.fontName != nil) {
+        [self.textView setFont:[UIFont fontWithName:self.fontName size:calculatedFontSize]];
+    } else {
+        [self.textView setFont:[UIFont systemFontOfSize:calculatedFontSize]];
+    }
     self.textView.textColor = self.lineColor;
     self.textView.alpha = self.lineAlpha;
     

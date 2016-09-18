@@ -84,28 +84,46 @@ extension DrawViewController {
     }
     
     func penButtonPressed() {
+        let penActionSheetController = UIAlertController(title: NSLocalizedString("Choose a Pen Style", comment: ""), message: "", preferredStyle: .actionSheet)
+        let cancelAction = UIAlertAction(title: NSLocalizedString("Cancel", comment: ""), style: .cancel, handler: nil)
+        let penAction = UIAlertAction(title: NSLocalizedString("Pen", comment: ""), style: .default) {[unowned self] (action) in
+            self.drawingView.drawTool = ACEDrawingToolTypePen
+        }
+        let lineAction = UIAlertAction(title: NSLocalizedString("Line", comment: ""), style: .default) {[unowned self] (action) in
+            self.drawingView.drawTool = ACEDrawingToolTypeLine
+        }
+        let arrowAction = UIAlertAction(title: NSLocalizedString("Arrow", comment: ""), style: .default) {[unowned self] (action) in
+            self.drawingView.drawTool = ACEDrawingToolTypeArrow
+        }
+        let rectangleAction = UIAlertAction(title: NSLocalizedString("Rectangle", comment: ""), style: .default) {[unowned self] (action) in
+            self.drawingView.drawTool = ACEDrawingToolTypeRectagleStroke
+        }
+        let fillRectangleAction = UIAlertAction(title: NSLocalizedString("Filled Rectangle", comment: ""), style: .default) {[unowned self] (action) in
+            self.drawingView.drawTool = ACEDrawingToolTypeRectagleFill
+        }
+        let ellipseAction = UIAlertAction(title: NSLocalizedString("Ellipse", comment: ""), style: .default) {[unowned self] (action) in
+            self.drawingView.drawTool = ACEDrawingToolTypeEllipseStroke
+        }
+        let fillEllipseAction = UIAlertAction(title: NSLocalizedString("Filled Ellipse", comment: ""), style: .default) {[unowned self] (action) in
+            self.drawingView.drawTool = ACEDrawingToolTypeEllipseFill
+        }
+        let eraseAction = UIAlertAction(title: NSLocalizedString("Eraser", comment: ""), style: .default) {[unowned self] (action) in
+            self.drawingView.drawTool = ACEDrawingToolTypeEraser
+        }
+        let textAction = UIAlertAction(title: NSLocalizedString("Text", comment: ""), style: .default) {[unowned self] (action) in
+            self.drawingView.drawTool = ACEDrawingToolTypeText
+        }
+        let multilineTextAction = UIAlertAction(title: NSLocalizedString("MultiLine Text", comment: ""), style: .default) {[unowned self] (action) in
+            self.drawingView.drawTool = ACEDrawingToolTypeMultilineText
+        }
         
+        for action in [eraseAction, penAction, lineAction, arrowAction, rectangleAction, fillRectangleAction, ellipseAction, fillEllipseAction, textAction, multilineTextAction, cancelAction] {
+            penActionSheetController.addAction(action)
+        }
+        present(penActionSheetController, animated: true, completion: nil)
     }
     
     func widthButtonPressed() {
         widthSlider.isHidden = !widthSlider.isHidden
     }
 }
-
-//- (IBAction)undo:(id)sender
-//{
-//    [self.drawingView undoLatestStep];
-//    [self updateButtonStatus];
-//    }
-//    
-//    - (IBAction)redo:(id)sender
-//{
-//    [self.drawingView redoLatestStep];
-//    [self updateButtonStatus];
-//    }
-//    
-//    - (IBAction)clear:(id)sender
-//{
-//    [self.drawingView clear];
-//    [self updateButtonStatus];
-//}
