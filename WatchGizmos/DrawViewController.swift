@@ -40,6 +40,12 @@ extension DrawViewController {
         drawingView.addSubview(widthSlider)
         widthSlider.bottomAnchor.constraint(equalTo: penButton.topAnchor, constant: -15).isActive = true
         NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: "H:|-10-[widthSlider]-10-|", options: [], metrics: nil, views: ["widthSlider": widthSlider]))
+        
+        widthSlider.addTarget(self, action: #selector(widthSliderValueChanged), for: .valueChanged)
+    }
+    
+    func widthSliderValueChanged() {
+        drawingView.lineWidth = CGFloat(widthSlider.value)
     }
     
     func setUpButtons() {
