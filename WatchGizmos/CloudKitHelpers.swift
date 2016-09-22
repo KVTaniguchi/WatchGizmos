@@ -9,4 +9,8 @@
 import Foundation
 import CloudKit
 
+// fetch all public records from cloudkit
+
+// upload single record to cloudkit
+
 // 
