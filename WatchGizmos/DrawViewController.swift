@@ -48,7 +48,14 @@ extension DrawViewController {
         drawingView.lineWidth = CGFloat(widthSlider.value)
     }
     
+    func galleryButtonPressed() {
+        let galleryVC = GalleryViewController()
+        navigationController?.pushViewController(galleryVC, animated: true)
+    }
+    
     func setUpButtons() {
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Gallery", style: .plain, target: self, action: #selector(galleryButtonPressed))
+        
         undoButton.setTitle(NSLocalizedString("Undo", comment: ""), for: .normal)
         redoButton.setTitle(NSLocalizedString("Redo", comment: ""), for: .normal)
         clearButton.setTitle(NSLocalizedString("Clear", comment: ""), for: .normal)
