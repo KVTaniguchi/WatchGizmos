@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ACEDrawingView-ACEDraggableText.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ACEDrawingView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>53C1750908AAA24004291E19650E9EA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>67E83443C6B317CD8B346B0FC3BE9E3B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F23EF643357DE4902A2E6096F77BF758</key>
+		<key>89D556DB925527018371CFAE02D39849</key>
 		<dict>
 			<key>primary</key>
 			<true/>

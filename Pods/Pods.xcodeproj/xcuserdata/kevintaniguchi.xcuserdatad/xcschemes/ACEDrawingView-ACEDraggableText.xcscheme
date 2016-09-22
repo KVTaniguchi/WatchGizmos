@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '53C1750908AAA24004291E19650E9EA1'
-               BlueprintName = 'ACEDrawingView'
+               BlueprintIdentifier = '89D556DB925527018371CFAE02D39849'
+               BlueprintName = 'ACEDrawingView-ACEDraggableText'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'ACEDrawingView.framework'>
+               BuildableName = 'ACEDraggableText.bundle'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
