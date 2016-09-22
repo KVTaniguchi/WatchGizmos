@@ -117,13 +117,10 @@ extension DrawViewController {
             self.drawingView.drawTool = ACEDrawingToolTypeEraser
         }
         let textAction = UIAlertAction(title: NSLocalizedString("Text", comment: ""), style: .default) {[unowned self] (action) in
-            self.drawingView.drawTool = ACEDrawingToolTypeText
-        }
-        let multilineTextAction = UIAlertAction(title: NSLocalizedString("MultiLine Text", comment: ""), style: .default) {[unowned self] (action) in
-            self.drawingView.drawTool = ACEDrawingToolTypeMultilineText
+            self.drawingView.drawTool = ACEDrawingToolTypeDraggableText
         }
         
-        for action in [eraseAction, penAction, lineAction, arrowAction, rectangleAction, fillRectangleAction, ellipseAction, fillEllipseAction, textAction, multilineTextAction, cancelAction] {
+        for action in [eraseAction, penAction, lineAction, arrowAction, rectangleAction, fillRectangleAction, ellipseAction, fillEllipseAction, textAction, cancelAction] {
             penActionSheetController.addAction(action)
         }
         present(penActionSheetController, animated: true, completion: nil)

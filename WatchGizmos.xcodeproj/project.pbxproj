@@ -404,28 +404,33 @@
 					C745A1F51D7E15A7004B57C1 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 3B3FT42G96;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					C745A2091D7E15A7004B57C1 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 3B3FT42G96;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C745A1F51D7E15A7004B57C1;
 					};
 					C745A2141D7E15A7004B57C1 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 3B3FT42G96;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C745A1F51D7E15A7004B57C1;
 					};
 					C745A21D1D7E15A7004B57C1 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 3B3FT42G96;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					C745A22C1D7E15A7004B57C1 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 3B3FT42G96;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
