@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		51C4573F6804670A24079E8A /* Pods_WatchGizmos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95D4FDECF96F633ECFDF611 /* Pods_WatchGizmos.framework */; };
+		BD5A13351D93919B00427350 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5A13341D93919B00427350 /* CloudKit.framework */; };
 		C745A1FA1D7E15A7004B57C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745A1F91D7E15A7004B57C1 /* AppDelegate.swift */; };
 		C745A2011D7E15A7004B57C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C745A2001D7E15A7004B57C1 /* Assets.xcassets */; };
 		C745A2041D7E15A7004B57C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C745A2021D7E15A7004B57C1 /* LaunchScreen.storyboard */; };
@@ -87,6 +88,8 @@
 /* Begin PBXFileReference section */
 		4251887AA549312D56BD4983 /* Pods-WatchGizmos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchGizmos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchGizmos/Pods-WatchGizmos.debug.xcconfig"; sourceTree = "<group>"; };
 		6F1A3FFC31444A6CB8BDED9A /* Pods-WatchGizmos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchGizmos.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchGizmos/Pods-WatchGizmos.release.xcconfig"; sourceTree = "<group>"; };
+		BD5A13331D93919700427350 /* WatchGizmos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WatchGizmos.entitlements; sourceTree = "<group>"; };
+		BD5A13341D93919B00427350 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		C745A1F61D7E15A7004B57C1 /* WatchGizmos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchGizmos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C745A1F91D7E15A7004B57C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C745A2001D7E15A7004B57C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51C4573F6804670A24079E8A /* Pods_WatchGizmos.framework in Frameworks */,
+				BD5A13351D93919B00427350 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +172,7 @@
 		A8E8784DC86114365971CFDB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BD5A13341D93919B00427350 /* CloudKit.framework */,
 				C95D4FDECF96F633ECFDF611 /* Pods_WatchGizmos.framework */,
 			);
 			name = Frameworks;
@@ -202,6 +207,7 @@
 		C745A1F81D7E15A7004B57C1 /* WatchGizmos */ = {
 			isa = PBXGroup;
 			children = (
+				BD5A13331D93919700427350 /* WatchGizmos.entitlements */,
 				C745A25A1D7E1F4E004B57C1 /* Draw */,
 				C745A2591D7E1EE4004B57C1 /* Gallery */,
 				C745A2581D7E1ECB004B57C1 /* WatchConnectivity */,
@@ -406,6 +412,14 @@
 						DevelopmentTeam = 3B3FT42G96;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					C745A2091D7E15A7004B57C1 = {
 						CreatedOnToolsVersion = 8.0;
@@ -801,6 +815,7 @@
 			baseConfigurationReference = 4251887AA549312D56BD4983 /* Pods-WatchGizmos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchGizmos/WatchGizmos.entitlements;
 				DEVELOPMENT_TEAM = 3B3FT42G96;
 				INFOPLIST_FILE = WatchGizmos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -815,6 +830,7 @@
 			baseConfigurationReference = 6F1A3FFC31444A6CB8BDED9A /* Pods-WatchGizmos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchGizmos/WatchGizmos.entitlements;
 				DEVELOPMENT_TEAM = 3B3FT42G96;
 				INFOPLIST_FILE = WatchGizmos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
